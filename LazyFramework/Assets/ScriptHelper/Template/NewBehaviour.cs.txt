@@ -1,0 +1,35 @@
+﻿/*******************************************************************************
+* 类 名 称： #ScriptName#
+* 创建日期：#NowTime#
+* 作者名称：#Author#
+* 功能描述：
+* 备注：
+******************************************************************************/
+
+using UnityEngine;
+using System.Collections;
+
+namespace #NameSpace#
+{
+    /// <summary>
+    /// 
+    /// </summary>
+	public class #ScriptName# : MonoBehaviour 
+	{
+
+		/// <summary>
+        /// Unity Method
+        /// </summary>
+		void Start () 
+		{
+		}
+	
+		/// <summary>
+        /// Unity Method
+        /// </summary>
+		void Update ()
+		{
+		}
+	}
+}
+

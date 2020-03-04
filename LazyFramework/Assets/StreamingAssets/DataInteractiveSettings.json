@@ -1,0 +1,16 @@
+{
+	"设置": 
+	{
+		"isUseMe": "false",
+		"平台类型": "购买平台"
+	},
+	"购买平台设置": 
+	{
+		"url": "http://xwxy.jnu.owvlab.net/virexp/",		
+	},
+	"简易平台设置": 
+	{
+		"host": "http://kglh.afeu.owvlab.net/",
+		"id": "1be03694-7f08-495d-841c-46c775d3d5e1",		
+	}
+}

@@ -1,0 +1,461 @@
+fileFormatVersion: 2
+guid: 4d75ad9ec17606c4b88d907ab804d5c8
+timeCreated: 1455674745
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: bx51 chaxiao1
+    100002: bx51 chaxiao2
+    100004: bx51 mujing01
+    100006: bx51 mujing02
+    100008: bx51 mujing05
+    100010: bx51 mujing06
+    100012: bx51 mujing07
+    100014: bx51 mujing08
+    100016: bx51 mujing09
+    100018: bx51 zhukaiguan
+    100020: //RootNode
+    100022: cutiaojiaoxianweigan
+    100024: cutiaojiaoxuanniu
+    100026: cutiaojiaoxuanniu2
+    100028: cutiaojiaozhanglitiaojiehuan
+    100030: DICgudingniu
+    100032: DIChuazuo
+    100034: gaizhui
+    100036: gddychaxiao1
+    100038: gddychaxiao2
+    100040: gddyzhukaiguan
+    100042: gongdengdengxiang
+    100044: gongdengdianyuangongdianqi
+    100046: gongdengdianyuangongdianqi 1
+    100048: gongdengdianyuangongdianqideng
+    100050: gongdengjujiaotiaojiexuanniu
+    100052: gongdenglianxiantou
+    100054: gongdengzhongxintiaojiexuanniu1
+    100056: gongdengzhongxintiaojiexuanniu2
+    100058: Group001
+    100060: guangluxuanzeniu
+    100062: guangqiangtiaojieniu
+    100064: guangqiangyusheanniu
+    100066: hengqipinghengqichacao
+    100068: jijia2
+    100070: jijiadizuo
+    100072: jingjia
+    100074: jishiqi
+    100076: juguangjing
+    100078: juguangjingduizhongxuanniu1
+    100080: juguangjingduizhongxuanniu2
+    100082: juguangjinggudingluosi
+    100084: juguangjingjia
+    100086: juguangjingshengjiangxuanniu
+    100088: kongjingguanglantiaojiegan
+    100090: kongjingguanglantiaojiehuan
+    100092: LBD
+    100094: lusudengdengxiang
+    100096: lvsepianjia
+    100098: lvsepianjiachacao
+    100100: mujing2
+    100102: ND25
+    100104: ND6
+    100106: NDlvsepian
+    100108: OP
+    100110: shexiangji
+    100112: shichangguanglantiaojiegan
+    100114: shichangguanglantiaojiehuan001
+    100116: weitiaojiaoxuanniu
+    100118: wujing
+    100120: wujing 10x
+    100122: wujing 20x001
+    100124: wujing 40x001
+    100126: wujing 4x
+    100128: wujingmao
+    100130: wujingzhuanpan
+    100132: wujingzuo
+    100134: XYzhouxuanniugan
+    100136: Xzhouxuanniu
+    100138: yangpinjiagudingluosi01
+    100140: yangpinjiagudingluosi02
+    100142: yingguangjifazhuanpan
+    100144: Yzhouxuanniu
+    100146: zaiwutai00
+    100148: zaiwutai01
+    100150: zaiwutai02
+    100152: zaiwutai03
+    100154: zaiwutai04
+    100156: zaiwutaigudingluosi
+    100158: zheguangdangbanniu
+    100160: zhuanhuankaiguan
+    400000: bx51 chaxiao1
+    400002: bx51 chaxiao2
+    400004: bx51 mujing01
+    400006: bx51 mujing02
+    400008: bx51 mujing05
+    400010: bx51 mujing06
+    400012: bx51 mujing07
+    400014: bx51 mujing08
+    400016: bx51 mujing09
+    400018: bx51 zhukaiguan
+    400020: //RootNode
+    400022: cutiaojiaoxianweigan
+    400024: cutiaojiaoxuanniu
+    400026: cutiaojiaoxuanniu2
+    400028: cutiaojiaozhanglitiaojiehuan
+    400030: DICgudingniu
+    400032: DIChuazuo
+    400034: gaizhui
+    400036: gddychaxiao1
+    400038: gddychaxiao2
+    400040: gddyzhukaiguan
+    400042: gongdengdengxiang
+    400044: gongdengdianyuangongdianqi
+    400046: gongdengdianyuangongdianqi 1
+    400048: gongdengdianyuangongdianqideng
+    400050: gongdengjujiaotiaojiexuanniu
+    400052: gongdenglianxiantou
+    400054: gongdengzhongxintiaojiexuanniu1
+    400056: gongdengzhongxintiaojiexuanniu2
+    400058: Group001
+    400060: guangluxuanzeniu
+    400062: guangqiangtiaojieniu
+    400064: guangqiangyusheanniu
+    400066: hengqipinghengqichacao
+    400068: jijia2
+    400070: jijiadizuo
+    400072: jingjia
+    400074: jishiqi
+    400076: juguangjing
+    400078: juguangjingduizhongxuanniu1
+    400080: juguangjingduizhongxuanniu2
+    400082: juguangjinggudingluosi
+    400084: juguangjingjia
+    400086: juguangjingshengjiangxuanniu
+    400088: kongjingguanglantiaojiegan
+    400090: kongjingguanglantiaojiehuan
+    400092: LBD
+    400094: lusudengdengxiang
+    400096: lvsepianjia
+    400098: lvsepianjiachacao
+    400100: mujing2
+    400102: ND25
+    400104: ND6
+    400106: NDlvsepian
+    400108: OP
+    400110: shexiangji
+    400112: shichangguanglantiaojiegan
+    400114: shichangguanglantiaojiehuan001
+    400116: weitiaojiaoxuanniu
+    400118: wujing
+    400120: wujing 10x
+    400122: wujing 20x001
+    400124: wujing 40x001
+    400126: wujing 4x
+    400128: wujingmao
+    400130: wujingzhuanpan
+    400132: wujingzuo
+    400134: XYzhouxuanniugan
+    400136: Xzhouxuanniu
+    400138: yangpinjiagudingluosi01
+    400140: yangpinjiagudingluosi02
+    400142: yingguangjifazhuanpan
+    400144: Yzhouxuanniu
+    400146: zaiwutai00
+    400148: zaiwutai01
+    400150: zaiwutai02
+    400152: zaiwutai03
+    400154: zaiwutai04
+    400156: zaiwutaigudingluosi
+    400158: zheguangdangbanniu
+    400160: zhuanhuankaiguan
+    2300000: bx51 chaxiao1
+    2300002: bx51 chaxiao2
+    2300004: bx51 mujing01
+    2300006: bx51 mujing02
+    2300008: bx51 mujing05
+    2300010: bx51 mujing06
+    2300012: bx51 mujing07
+    2300014: bx51 mujing08
+    2300016: bx51 mujing09
+    2300018: bx51 zhukaiguan
+    2300020: cutiaojiaoxianweigan
+    2300022: cutiaojiaoxuanniu
+    2300024: cutiaojiaoxuanniu2
+    2300026: cutiaojiaozhanglitiaojiehuan
+    2300028: DICgudingniu
+    2300030: DIChuazuo
+    2300032: gaizhui
+    2300034: gddychaxiao1
+    2300036: gddychaxiao2
+    2300038: gddyzhukaiguan
+    2300040: gongdengdengxiang
+    2300042: gongdengdianyuangongdianqi 1
+    2300044: gongdengdianyuangongdianqideng
+    2300046: gongdengjujiaotiaojiexuanniu
+    2300048: gongdenglianxiantou
+    2300050: gongdengzhongxintiaojiexuanniu1
+    2300052: gongdengzhongxintiaojiexuanniu2
+    2300054: guangluxuanzeniu
+    2300056: guangqiangtiaojieniu
+    2300058: guangqiangyusheanniu
+    2300060: hengqipinghengqichacao
+    2300062: jijia2
+    2300064: jijiadizuo
+    2300066: jingjia
+    2300068: jishiqi
+    2300070: juguangjing
+    2300072: juguangjingduizhongxuanniu1
+    2300074: juguangjingduizhongxuanniu2
+    2300076: juguangjinggudingluosi
+    2300078: juguangjingjia
+    2300080: juguangjingshengjiangxuanniu
+    2300082: kongjingguanglantiaojiegan
+    2300084: kongjingguanglantiaojiehuan
+    2300086: LBD
+    2300088: lusudengdengxiang
+    2300090: lvsepianjia
+    2300092: lvsepianjiachacao
+    2300094: ND25
+    2300096: ND6
+    2300098: NDlvsepian
+    2300100: OP
+    2300102: shexiangji
+    2300104: shichangguanglantiaojiegan
+    2300106: shichangguanglantiaojiehuan001
+    2300108: weitiaojiaoxuanniu
+    2300110: wujing 10x
+    2300112: wujing 20x001
+    2300114: wujing 40x001
+    2300116: wujing 4x
+    2300118: wujingmao
+    2300120: wujingzhuanpan
+    2300122: wujingzuo
+    2300124: XYzhouxuanniugan
+    2300126: Xzhouxuanniu
+    2300128: yangpinjiagudingluosi01
+    2300130: yangpinjiagudingluosi02
+    2300132: yingguangjifazhuanpan
+    2300134: Yzhouxuanniu
+    2300136: zaiwutai00
+    2300138: zaiwutai01
+    2300140: zaiwutai02
+    2300142: zaiwutai03
+    2300144: zaiwutai04
+    2300146: zaiwutaigudingluosi
+    2300148: zheguangdangbanniu
+    2300150: zhuanhuankaiguan
+    3300000: bx51 chaxiao1
+    3300002: bx51 chaxiao2
+    3300004: bx51 mujing01
+    3300006: bx51 mujing02
+    3300008: bx51 mujing05
+    3300010: bx51 mujing06
+    3300012: bx51 mujing07
+    3300014: bx51 mujing08
+    3300016: bx51 mujing09
+    3300018: bx51 zhukaiguan
+    3300020: cutiaojiaoxianweigan
+    3300022: cutiaojiaoxuanniu
+    3300024: cutiaojiaoxuanniu2
+    3300026: cutiaojiaozhanglitiaojiehuan
+    3300028: DICgudingniu
+    3300030: DIChuazuo
+    3300032: gaizhui
+    3300034: gddychaxiao1
+    3300036: gddychaxiao2
+    3300038: gddyzhukaiguan
+    3300040: gongdengdengxiang
+    3300042: gongdengdianyuangongdianqi 1
+    3300044: gongdengdianyuangongdianqideng
+    3300046: gongdengjujiaotiaojiexuanniu
+    3300048: gongdenglianxiantou
+    3300050: gongdengzhongxintiaojiexuanniu1
+    3300052: gongdengzhongxintiaojiexuanniu2
+    3300054: guangluxuanzeniu
+    3300056: guangqiangtiaojieniu
+    3300058: guangqiangyusheanniu
+    3300060: hengqipinghengqichacao
+    3300062: jijia2
+    3300064: jijiadizuo
+    3300066: jingjia
+    3300068: jishiqi
+    3300070: juguangjing
+    3300072: juguangjingduizhongxuanniu1
+    3300074: juguangjingduizhongxuanniu2
+    3300076: juguangjinggudingluosi
+    3300078: juguangjingjia
+    3300080: juguangjingshengjiangxuanniu
+    3300082: kongjingguanglantiaojiegan
+    3300084: kongjingguanglantiaojiehuan
+    3300086: LBD
+    3300088: lusudengdengxiang
+    3300090: lvsepianjia
+    3300092: lvsepianjiachacao
+    3300094: ND25
+    3300096: ND6
+    3300098: NDlvsepian
+    3300100: OP
+    3300102: shexiangji
+    3300104: shichangguanglantiaojiegan
+    3300106: shichangguanglantiaojiehuan001
+    3300108: weitiaojiaoxuanniu
+    3300110: wujing 10x
+    3300112: wujing 20x001
+    3300114: wujing 40x001
+    3300116: wujing 4x
+    3300118: wujingmao
+    3300120: wujingzhuanpan
+    3300122: wujingzuo
+    3300124: XYzhouxuanniugan
+    3300126: Xzhouxuanniu
+    3300128: yangpinjiagudingluosi01
+    3300130: yangpinjiagudingluosi02
+    3300132: yingguangjifazhuanpan
+    3300134: Yzhouxuanniu
+    3300136: zaiwutai00
+    3300138: zaiwutai01
+    3300140: zaiwutai02
+    3300142: zaiwutai03
+    3300144: zaiwutai04
+    3300146: zaiwutaigudingluosi
+    3300148: zheguangdangbanniu
+    3300150: zhuanhuankaiguan
+    4300000: jingjia
+    4300002: zaiwutai04
+    4300004: DICgudingniu
+    4300006: yingguangjifazhuanpan
+    4300008: guangluxuanzeniu
+    4300010: wujingmao
+    4300012: wujing 4x
+    4300014: wujing 20x001
+    4300016: wujing 40x001
+    4300018: wujing 10x
+    4300020: wujingzhuanpan
+    4300022: DIChuazuo
+    4300024: gaizhui
+    4300026: yangpinjiagudingluosi02
+    4300028: yangpinjiagudingluosi01
+    4300030: juguangjinggudingluosi
+    4300032: juguangjingduizhongxuanniu1
+    4300034: juguangjingduizhongxuanniu2
+    4300036: zaiwutaigudingluosi
+    4300038: shichangguanglantiaojiegan
+    4300040: kongjingguanglantiaojiegan
+    4300042: bx51 chaxiao2
+    4300044: jishiqi
+    4300046: gongdengdianyuangongdianqideng
+    4300048: gddyzhukaiguan
+    4300050: gddychaxiao1
+    4300052: gddychaxiao2
+    4300054: gongdengdianyuangongdianqi
+    4300056: bx51 zhukaiguan
+    4300058: zhuanhuankaiguan
+    4300060: guangqiangyusheanniu
+    4300062: jijia2
+    4300064: jijiadizuo
+    4300066: lusudengdengxiang
+    4300068: gongdengdengxiang
+    4300070: shexiangji
+    4300072: gongdengjujiaotiaojiexuanniu
+    4300074: gongdengzhongxintiaojiexuanniu1
+    4300076: gongdengzhongxintiaojiexuanniu2
+    4300078: gongdenglianxiantou
+    4300080: bx51 chaxiao1
+    4300082: NDlvsepian
+    4300084: lvsepianjiachacao
+    4300086: hengqipinghengqichacao
+    4300088: zheguangdangbanniu
+    4300090: shichangguanglantiaojiehuan001
+    4300092: guangqiangtiaojieniu
+    4300094: ND6
+    4300096: ND25
+    4300098: LBD
+    4300100: OP
+    4300102: cutiaojiaoxuanniu
+    4300104: cutiaojiaozhanglitiaojiehuan
+    4300106: weitiaojiaoxuanniu
+    4300108: cutiaojiaoxuanniu2
+    4300110: cutiaojiaoxianweigan
+    4300112: wujingzuo
+    4300114: lvsepianjia
+    4300116: bx51 mujing05
+    4300118: bx51 mujing09
+    4300120: bx51 mujing02
+    4300122: bx51 mujing01
+    4300124: bx51 mujing06
+    4300126: bx51 mujing08
+    4300128: bx51 mujing07
+    4300130: Xzhouxuanniu
+    4300132: Yzhouxuanniu
+    4300134: XYzhouxuanniugan
+    4300136: juguangjing
+    4300138: kongjingguanglantiaojiehuan
+    4300140: juguangjingshengjiangxuanniu
+    4300142: juguangjingjia
+    4300144: zaiwutai00
+    4300146: zaiwutai01
+    4300148: zaiwutai02
+    4300150: zaiwutai03
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

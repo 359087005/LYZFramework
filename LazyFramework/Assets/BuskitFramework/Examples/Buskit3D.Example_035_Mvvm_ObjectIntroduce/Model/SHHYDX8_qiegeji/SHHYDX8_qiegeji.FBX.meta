@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: 27c8856380ecd094fa94b7dd740d2def
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: SHHY8_qiegeji01
+    100002: SHHY8_qiegeji02
+    100004: SHHY8_qiegeji03
+    100006: SHHY8_qiegeji04
+    100008: SHHY8_qiegeji05
+    100010: SHHY8_qiegeji06
+    100012: SHHY8_qiegeji07
+    100014: SHHY8_qiegeji08
+    100016: SHHY8_qiegeji09
+    100018: SHHY8_qiegeji10
+    100020: SHHY8_qiegeji11
+    100022: SHHY8_qiegeji12
+    100024: SHHY8_qiegeji13
+    100026: SHHY8_qiegeji14
+    100028: SHHY8_qiegeji15
+    100030: SHHY8_qiegeji16
+    100032: SHHY8_qiegeji17
+    100034: SHHY8_qiegeji18
+    100036: SHHY8_qiegeji19
+    100038: SHHY8_qiegeji20
+    100040: SHHY8_qiegeji21
+    100042: SHHY8_qiegeji22
+    100044: SHHY8_qiegeji23
+    100046: SHHY8_qiegeji24
+    100048: //RootNode
+    100050: "\u7EC4001"
+    400000: SHHY8_qiegeji01
+    400002: SHHY8_qiegeji02
+    400004: SHHY8_qiegeji03
+    400006: SHHY8_qiegeji04
+    400008: SHHY8_qiegeji05
+    400010: SHHY8_qiegeji06
+    400012: SHHY8_qiegeji07
+    400014: SHHY8_qiegeji08
+    400016: SHHY8_qiegeji09
+    400018: SHHY8_qiegeji10
+    400020: SHHY8_qiegeji11
+    400022: SHHY8_qiegeji12
+    400024: SHHY8_qiegeji13
+    400026: SHHY8_qiegeji14
+    400028: SHHY8_qiegeji15
+    400030: SHHY8_qiegeji16
+    400032: SHHY8_qiegeji17
+    400034: SHHY8_qiegeji18
+    400036: SHHY8_qiegeji19
+    400038: SHHY8_qiegeji20
+    400040: SHHY8_qiegeji21
+    400042: SHHY8_qiegeji22
+    400044: SHHY8_qiegeji23
+    400046: SHHY8_qiegeji24
+    400048: //RootNode
+    400050: "\u7EC4001"
+    2300000: SHHY8_qiegeji01
+    2300002: SHHY8_qiegeji02
+    2300004: SHHY8_qiegeji03
+    2300006: SHHY8_qiegeji04
+    2300008: SHHY8_qiegeji05
+    2300010: SHHY8_qiegeji06
+    2300012: SHHY8_qiegeji07
+    2300014: SHHY8_qiegeji08
+    2300016: SHHY8_qiegeji09
+    2300018: SHHY8_qiegeji10
+    2300020: SHHY8_qiegeji11
+    2300022: SHHY8_qiegeji12
+    2300024: SHHY8_qiegeji13
+    2300026: SHHY8_qiegeji14
+    2300028: SHHY8_qiegeji15
+    2300030: SHHY8_qiegeji16
+    2300032: SHHY8_qiegeji17
+    2300034: SHHY8_qiegeji18
+    2300036: SHHY8_qiegeji19
+    2300038: SHHY8_qiegeji20
+    2300040: SHHY8_qiegeji21
+    2300042: SHHY8_qiegeji22
+    2300044: SHHY8_qiegeji23
+    2300046: SHHY8_qiegeji24
+    3300000: SHHY8_qiegeji01
+    3300002: SHHY8_qiegeji02
+    3300004: SHHY8_qiegeji03
+    3300006: SHHY8_qiegeji04
+    3300008: SHHY8_qiegeji05
+    3300010: SHHY8_qiegeji06
+    3300012: SHHY8_qiegeji07
+    3300014: SHHY8_qiegeji08
+    3300016: SHHY8_qiegeji09
+    3300018: SHHY8_qiegeji10
+    3300020: SHHY8_qiegeji11
+    3300022: SHHY8_qiegeji12
+    3300024: SHHY8_qiegeji13
+    3300026: SHHY8_qiegeji14
+    3300028: SHHY8_qiegeji15
+    3300030: SHHY8_qiegeji16
+    3300032: SHHY8_qiegeji17
+    3300034: SHHY8_qiegeji18
+    3300036: SHHY8_qiegeji19
+    3300038: SHHY8_qiegeji20
+    3300040: SHHY8_qiegeji21
+    3300042: SHHY8_qiegeji22
+    3300044: SHHY8_qiegeji23
+    3300046: SHHY8_qiegeji24
+    4300000: SHHY8_qiegeji07
+    4300002: SHHY8_qiegeji20
+    4300004: SHHY8_qiegeji15
+    4300006: SHHY8_qiegeji03
+    4300008: SHHY8_qiegeji04
+    4300010: SHHY8_qiegeji12
+    4300012: SHHY8_qiegeji19
+    4300014: SHHY8_qiegeji18
+    4300016: SHHY8_qiegeji17
+    4300018: SHHY8_qiegeji16
+    4300020: SHHY8_qiegeji01
+    4300022: SHHY8_qiegeji24
+    4300024: SHHY8_qiegeji22
+    4300026: SHHY8_qiegeji21
+    4300028: SHHY8_qiegeji02
+    4300030: SHHY8_qiegeji13
+    4300032: SHHY8_qiegeji14
+    4300034: SHHY8_qiegeji10
+    4300036: SHHY8_qiegeji06
+    4300038: SHHY8_qiegeji08
+    4300040: SHHY8_qiegeji23
+    4300042: SHHY8_qiegeji05
+    4300044: SHHY8_qiegeji11
+    4300046: SHHY8_qiegeji09
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #266'
+    second: {fileID: 2100000, guid: 8552eea077ea88b419c76d9d33e4add2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #267'
+    second: {fileID: 2100000, guid: dd15a88055f852c4b82f6c321725b62e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #279'
+    second: {fileID: 2100000, guid: dd15a88055f852c4b82f6c321725b62e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #428'
+    second: {fileID: 2100000, guid: c744e9335e023594782dbfb251b7235e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #440'
+    second: {fileID: 2100000, guid: c744e9335e023594782dbfb251b7235e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #452'
+    second: {fileID: 2100000, guid: 6dd41325482c0014e81c13f05725c6ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #58'
+    second: {fileID: 2100000, guid: 7d07497c51c370b4e87c1183debc882b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #71'
+    second: {fileID: 2100000, guid: 7d07497c51c370b4e87c1183debc882b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #83'
+    second: {fileID: 2100000, guid: 65696ac62f439b24b9bd67647c4bdcb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #85'
+    second: {fileID: 2100000, guid: 6587b49c5772f7a4ebf36a2c9e130f35, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

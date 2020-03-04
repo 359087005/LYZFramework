@@ -1,0 +1,69 @@
+﻿/*******************************************************************************
+* 版权声明：北京润尼尔网络科技有限公司，保留所有版权
+* 版本声明：v1.0.0
+* 项目名称：Buskit3D
+* 类 名 称：CommonDataModel
+* 创建日期：2019-03-31 14:30:17
+* 作者名称：王志远
+* CLR 版本：4.0.30319.42000
+* 功能描述：实体类工具，用来查找一个GameObject上的实体对象、数据模型、业务逻辑
+* 修改记录：
+* 日期 描述：
+* 
+******************************************************************************/
+
+using Com.Rainier.Buskit.Unity.Architecture.Injector;
+using Com.Rainier.Buskit3D;
+
+namespace Buskit3D.Example_036_Mvvm_BestPractices
+{
+    /// <summary>
+    /// 实验中其他DataModel全部继承自这个类
+    /// </summary>
+    public class CommonDataModel : DataModelBehaviour
+    {
+        /// <summary>
+        /// 实体工具(接口注入的好处在于仅仅暴露API,
+        /// 被注入对象的字段和属性不会暴露，提高了被注入对象的使用安全性)
+        /// </summary>
+        [Inject]
+        protected EntityUtils utilsEntity;
+
+        /// <summary>
+        /// 日志工具(接口注入的好处在于仅仅暴露API,
+        /// 被注入对象的字段和属性不会暴露，提高了被注入对象的使用安全性)
+        /// </summary>
+        [Inject]
+        protected LoggingUtils utilsLogging;
+
+        /// <summary>
+        /// 场景中所三维物体
+        /// </summary>
+        [Inject]
+        protected ObjectPool<CommonDataModel> dataModels;
+
+        /// <summary>
+        /// 创建中所有UI组件
+        /// </summary>
+        [Inject]
+        protected ObjectPool<CommonViewModel> viewModels;
+
+        /// <summary>
+        /// 注入依赖对象
+        /// </summary>
+        protected override void Start()
+        {
+            base.Start();
+            InjectService.InjectInto(this);
+            dataModels.RegisterObject(this);
+        }
+
+        /// <summary>
+        /// 销毁时从对象池中去除自己
+        /// </summary>
+        private void OnDestroy()
+        {
+            dataModels.RemoveObject(this);
+        }
+    }
+}

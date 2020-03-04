@@ -1,0 +1,1542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7DBC7921-4FF8-75FA-0F51-403FD71F0314}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_0;UNITY_2018_3;UNITY_2018;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;UNITY_PRO_LICENSE;Local_Mode;Local_Mode_Debug;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
+    <UnityVersion>2018.3.0f2</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>F:\unity2018.3.0Po\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>F:\unity2018.3.0Po\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_000_Base_PresureDemo\CubeDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_000_Base_PresureDemo\CubeEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_000_Base_PresureDemo\CubeLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_000_Base_PresureDemo\PresureTest.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_001_Base_HelloWorld\HelloWorldDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_001_Base_HelloWorld\HelloWorldDataLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_001_Base_HelloWorld\HelloWorldDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_002_Base_OneWayObjCommunication\CubeDataLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_002_Base_OneWayObjCommunication\CubeDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_002_Base_OneWayObjCommunication\SpeedControlDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_002_Base_OneWayObjCommunication\SpeedControlDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_003_Base_TwoWayObjCommunication\CubeRotateDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_003_Base_TwoWayObjCommunication\CubeRotateDataLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_003_Base_TwoWayObjCommunication\CubeRotateDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_003_Base_TwoWayObjCommunication\EventsTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_003_Base_TwoWayObjCommunication\SphereDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_003_Base_TwoWayObjCommunication\SphereDataLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_003_Base_TwoWayObjCommunication\SphereDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_004_Base_PanelClass\Scripts\PanelClassEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_004_Base_PanelClass\Scripts\PanelClassLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_004_Base_PanelClass\Scripts\PanelClassModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_004_Base_PanelClass\Scripts\PanelClassTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_005_Base_StorageSystem\InputHandlerDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_005_Base_StorageSystem\InputHandlerLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_005_Base_StorageSystem\ObjectShapeEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_005_Base_StorageSystem\ObjectShapeModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_005_Base_StorageSystem\ObjectShapLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_006_Base_FirstController\FirstCameraDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_006_Base_FirstController\FirstCameraEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_006_Base_FirstController\FirstCameraLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_006_Base_FirstController\FirstDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_006_Base_FirstController\FirstDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_006_Base_FirstController\FirstLogicBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_010_Base_UIDrag\Scripts\Drag2dDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_010_Base_UIDrag\Scripts\Drag2dDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_010_Base_UIDrag\Scripts\Drag2dLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_012_Base_SceneLoading\Scripts\SenceLoadingDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_012_Base_SceneLoading\Scripts\SenceLoadingDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_012_Base_SceneLoading\Scripts\SenceLoadingLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_012_Base_SceneLoading\Scripts\SenceLoadingTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_013_Base_MiniMap\Scripts\IconItem.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_013_Base_MiniMap\Scripts\MiniMap.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_013_Base_MiniMap\Scripts\MiniMapEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_013_Base_MiniMap\Scripts\MiniMapItem.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_013_Base_MiniMap\Scripts\MiniMapLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_013_Base_MiniMap\Scripts\MiniMapUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_013_Base_MiniMap\Scripts\MinniMapModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_013_Base_MiniMap\Scripts\SnapShot.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_013_Base_MiniMap\Scripts\TestMono.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_014_Base_PlayVideos\Scripts\UIShowPlayVideosInterfaceBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_014_Base_PlayVideos\Scripts\UIShowPlayVideosInterfaceDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_014_Base_PlayVideos\Scripts\UIShowPlayVideosInterfaceDataModelEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_014_Base_PlayVideos\Scripts\UIShowPlayVideosInterfaceLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_015_Base_VirtualTime\CalenderTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_015_Base_VirtualTime\VirtualTimeDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_015_Base_VirtualTime\VirtualTimeDataLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_015_Base_VirtualTime\VirtualTimeDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_017_Base_TimeCountDown\MessageTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_017_Base_TimeCountDown\TimeCountDownDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_017_Base_TimeCountDown\TimeCountDownDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_017_Base_TimeCountDown\TimeCountDownLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\HelpUIEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\HelpUILogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\HelpUIModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\SetUIEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\SetUILogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\SetUIModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\ShowTextEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\ShowTextLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\ShowTextModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\UIController.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\Workflow\HelpWorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\Workflow\MaininterfaceWorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\Workflow\MainWorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_018_Base_Workflow\Workflow\SettingWorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_019_Base_Setting\Scripts\RainierSettingLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_019_Base_Setting\Scripts\RainierSettingModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_019_Base_Setting\Scripts\RainierSettingTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_020_Base_Tween\BaseTween\TweenDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_020_Base_Tween\BaseTween\TweenEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_020_Base_Tween\BaseTween\TweenLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_020_Base_Tween\CubeTweenDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_020_Base_Tween\CubeTweenLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_020_Base_Tween\SphereTweenDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_020_Base_Tween\SphereTweenLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_020_Base_Tween\TweenData.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\ColorCommandLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CommandDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CommandDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CommandUIViewEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CommandUIViewLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CommandUIViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CreateCommandLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CubeColorControllCommand.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CubeCreateControllCommand.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CubeDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CubeDataModelEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CubeDataModelLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CubeDeleteControllCommand.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\CubeRotaionTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\DeleteCommandLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\ServiceInitialize.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\UIController.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_021_Base_Command\UndoRedoCommandLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_022_Base_WebSocket\TestWebSocket.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_024_Mvvm_HelloMvvm\HelloMvvmEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_024_Mvvm_HelloMvvm\HelloMvvmLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_024_Mvvm_HelloMvvm\HelloMvvmViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_025_Mvvm_ConfigDialog\ConfigEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_025_Mvvm_ConfigDialog\ConfigViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_025_Mvvm_ConfigDialog\LogicOperation.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_025_Mvvm_ConfigDialog\LogicShowValue.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_025_Mvvm_ConfigDialog\OpenConfig.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_026_Mvvm_Button\MvvmButtonEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_026_Mvvm_Button\MvvmButtonLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_026_Mvvm_Button\MvvmButtonModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_027_Mvvm_Text\MvvmTextEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_027_Mvvm_Text\MvvmTextlLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_027_Mvvm_Text\MvvmTextModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_028_Mvvm_DropDown\MvvmDropDownEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_028_Mvvm_DropDown\MvvmDropDownLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_028_Mvvm_DropDown\MvvmDropDownModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_029_Mvvm_ScrollBar\MvvmScrollBarEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_029_Mvvm_ScrollBar\MvvmScrollBarLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_029_Mvvm_ScrollBar\MvvmScrollBarModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_030_Mvvm_InputField\InputFieldEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_030_Mvvm_InputField\InputFieldLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_030_Mvvm_InputField\InputFieldViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_031_Mvvm_Toggle\ToggleEntityScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_031_Mvvm_Toggle\ToggleLogicScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_026_Mvvm_Component\Buskit3D.Example_031_Mvvm_Toggle\ToggleModelBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_027_Mvvm_SimpleTest\SimpleTestEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_027_Mvvm_SimpleTest\SimpleTestLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_027_Mvvm_SimpleTest\SimpleTestViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\BagEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\BagLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\BagTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\BagViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\ItemEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\ItemLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\ItemViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\TabItemEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\TabItemLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_028_Mvvm_Bag\TabItemViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_029_Mvvm_MenuList\MenuItemLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_029_Mvvm_MenuList\MenuItemViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_029_Mvvm_MenuList\ProjectDataModelEntityScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_029_Mvvm_MenuList\ProjectLogicScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_029_Mvvm_MenuList\ProjectTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_029_Mvvm_MenuList\ProjectViewModelBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\HelpPanelDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\HelpPanellEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\HelpPanelLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\LandingUIEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\LandingUILogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\LandingUiViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\LeftItemEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\LeftItemLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\LeftItemViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\SettingEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\SettingLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_030_Mvvm_UISystem1\SettingViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_031_Mvvm_Menu\MenuDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_031_Mvvm_Menu\MenuEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_031_Mvvm_Menu\MenuLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_032_Mvvm_VirtualTime\VirtualTimeDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_032_Mvvm_VirtualTime\VirtualTimeEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_032_Mvvm_VirtualTime\VirtualTimeLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_032_Mvvm_VirtualTime\VirtualTimeTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\MainMvvmWorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIALogicScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIAModelEntityScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIAMvvmWorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIAViewModelBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIBEntityScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIBLogicScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIBMvvmWorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIBViewModelBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UICEntityScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UICLogicScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UICMvvmWorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UICViewModelBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIDEntityScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIDLogicScript.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIDMvvmWorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\UIDViewModelBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\WfMainEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\WfMainLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\WfMainViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_033_Mvvm_Workflow\WfUIInit.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_034_Mvvm_Table\RowData\DeleteRowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_034_Mvvm_Table\RowData\RowDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_034_Mvvm_Table\RowData\RowDataViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_034_Mvvm_Table\RowTitle\AddRowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_034_Mvvm_Table\RowTitle\RowTitleEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_034_Mvvm_Table\RowTitle\RowTitleViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_034_Mvvm_Table\TableEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_034_Mvvm_Table\TableLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_034_Mvvm_Table\TableViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_035_Mvvm_ObjectIntroduce\EquipRotateController.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_035_Mvvm_ObjectIntroduce\UIEquipmentDataModelEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_035_Mvvm_ObjectIntroduce\UIEquipmentLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_035_Mvvm_ObjectIntroduce\UIEquipmentViewDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\Common\Behaviors\CommonDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\Common\Behaviors\CommonLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\Common\Behaviors\CommonMonoBehavior.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\Common\Behaviors\CommonViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\Common\IoC\IoCInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\Common\Utils\EntityUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\Common\Utils\LoggingUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\Common\Utils\ObjectPool.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\UIs\BagPanel\BagEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\UIs\BagPanel\BagOperationLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\UIs\BagPanel\BagViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\UIs\BagPanel\OpenBag.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\UIs\ConfigPanel\ConfigEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\UIs\ConfigPanel\ConfigViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\UIs\ConfigPanel\LogicOperation.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_036_Mvvm_BestPractices\UIs\ConfigPanel\OpenConfig.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_037_IoC_SingletonManagement\CommonLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_037_IoC_SingletonManagement\CubeDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_037_IoC_SingletonManagement\CubeEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_037_IoC_SingletonManagement\CubeRotationLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_037_IoC_SingletonManagement\CubeScalingLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_037_IoC_SingletonManagement\CubeTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_037_IoC_SingletonManagement\EntityUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_037_IoC_SingletonManagement\IoCInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_037_IoC_SingletonManagement\LoggingUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\CommonLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\CubeDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\CubeEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\CubeRotationLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\CubeScalingLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\CubeTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\EntityServiceImpl.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\IEntityService.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\ILoggingService.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\IoCInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\LoggingServiceImplForWebGL.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_038_IoC_InterfaceInjection\LoggingServiceImplForWindows.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\CommonLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\CommonMonoBehavior.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\DancerControlLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\DancerDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\DancerEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\EntityServiceImpl.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\IEntityService.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\ILoggingService.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\IoCInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\LightControlLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\LightDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\LightEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\LoggingServiceImpl.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\ObjectPool.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\TriggerDancer.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_039_IoC_ObjectPool\TriggerLight.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_040_IoC_TransientInjection\FactoryInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_040_IoC_TransientInjection\FactoryMethod.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_040_IoC_TransientInjection\UsingCreateFooMethod.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\Common\Behaviors\CommonDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\Common\Behaviors\CommonLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\Common\Behaviors\CommonMonoBehavior.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\Common\Behaviors\CommonViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\Common\IoC\IoCInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\Common\Utils\EntityUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\Common\Utils\LoggingUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\Common\Utils\ObjectPool.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouBai\DouBaiDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouBai\DouBaiEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouGan\DouGanDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouGan\DouGanEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouKe\DouKeDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouKe\DouKeEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouProcessLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouYa\DouYaDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\DouYa\DouYaEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\Yezi\YeZiDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\GameObjects\Yezi\YeZiEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\UI\ShowPartPanel\ShowPanelLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\UI\ShowPartPanel\ShowPartEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_041_IoC_DataModelManagement\UI\ShowPartPanel\ShowPartViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\Common\Behaviors\CommonDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\Common\Behaviors\CommonLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\Common\Behaviors\CommonMonoBehavior.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\Common\Behaviors\CommonViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\Common\IoC\IoCInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\Common\Utils\EntityUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\Common\Utils\LoggingUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\Common\Utils\ObjectPool.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\Controller.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\TestQiuEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\TestQiuLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\TestQiuModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\TestQiuMove.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\TestTaEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\TestTaLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\TestTaModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_042_IoC_Binding\TestTaTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_043_Igcs\TestDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_043_Igcs\TestEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\IMemoryDicTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\IMemoryListTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\IMemoryTest.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\MainTest.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\MemoryTableIDicTestTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\MemoryTableListTestTrigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\MemoryTestDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\MemoryTestEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\MemoryTestLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\TabDicTrigerStruct.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\TabDicTriggerClass.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\TabDicTriggerFloat.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\TabDicTriggerInt.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\TableListTestTriggerFloat.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\TableListTestTriggerInt.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\TableListTestTriggerStruct.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_044_MemoryPlayer\TableListTriggerClass.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\Mvvm\CommunicationEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\Mvvm\CommunicationLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\Mvvm\CommunicationViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\Mvvm\Trigger.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\phone\IphoneEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\phone\IphoneLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\phone\IphoneModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\ta\TaEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\ta\TaLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo1\ta\TaModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Command\CommandDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Command\CommandDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Command\CreateCommandLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Command\PhoneCreateControllCommand.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Command\TowerCreateControllCommand.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Command\UndoRedoCommandLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\LinkList\AttributeListEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\LinkList\AttributeListLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\LinkList\AttributeListModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\MenuAttribute\AttributeMenuEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\MenuAttribute\AttributeMenuLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\MenuAttribute\AttributeMenuModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\PhoneList\AttributePhoneEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\PhoneList\AttributePhoneLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\PhoneList\AttributePhoneModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\Statistics\AttributeStatisticsEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\Statistics\AttributeStatisticsLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\Statistics\AttributeStatisticsModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\TowerList\AttributeToweEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\TowerList\AttributeTowerLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Attribute\TowerList\AttributeTowerModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Communication\CommincationLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Communication\ComminicationEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Communication\ComminicationViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Menu\MenuEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Menu\MenuLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\Menu\MenuViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\SceneSetting\SceneSettingEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\SceneSetting\SceneSettingLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\SceneSetting\SceneSettingModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\SettingLink\SettingLinkEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\SettingLink\SettingLinkLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Mvvm\SettingLink\SettingLinkViewModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Phone\PhoneEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Phone\PhoneLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Phone\PhoneModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Tools\EntityServiceImpl.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Tools\EntityUtils.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Tools\IEntityService.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Tools\IoCInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Tools\ObjectPool.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Tools\SystemInit.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Tower\TowerEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Tower\TowerLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Examples\Buskit3D.Example_046_Communication\Scripts\Demo2\Tower\TowerModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\BaseDataModelEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\BindingTool.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\DataModelBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\EmptyEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\LogicBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\Mvvm\BindingAttribute.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\Mvvm\BindingException.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\Mvvm\BindingTable.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\Mvvm\ViewBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.BindingSystem\Mvvm\ViewModelBehaviour.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\CommandDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\CommandEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\CommandLogicCreatePart.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\CommandLogicDeletePart.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\CommandLogicMovePart.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\CommandLogicRedoUndo.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\CommandPartCreate.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\CommandPartDelete.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\CommandPartMove.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\IServiceCommand.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Command\ServiceCommand.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\DesignSystemInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\IServiceExperiment.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Parts\PartDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Parts\PartEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Selection\SelectionDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\Selection\SelectionEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.DesignSystem\ServiceExperiment.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcAssertOption.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcs.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcsAssertEquals.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcsAssertFlase.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcsAssertGreater.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcsAssertGreaterOrEquals.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcsAssertInterval.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcsAssertLess.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcsAssertLessOrEquals.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcsAssertNotEquals.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\AttributeIgcsAssertTrue.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\CorrectionWay.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\IgcsSystem.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\IgcsXmlGenerator.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.IgcsSystem\Structs.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.ServiceSystem\IService.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\AttributeNoStorage.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\DynamicIds.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\ExperimentInfoSettings.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\Interface\IStorage.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\LabInterSystem.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\ObjectIdentity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\Replay\MemoryPlayer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\Replay\RecordSystem.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\ReplayManager.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\RestoreSystem.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\StorageSystem.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\StorageSystemInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\StorgaeDataWrapper.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.StorageSystem\UniqueID.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\Attribute\DataModelSequenceAttribute.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\Attribute\RestoreFireLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\DondestoryOnLoad.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\LogService.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\Net3.5Extensions\UnityBuskitExtension.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\RainierEventTriggerListener.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\RainierUlitity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\ScreenMask.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\Service\IServiceCompress.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\Service\IServiceSerializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\Service\ServiceInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\ServiceGzip.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\ServiceJsonDotNet.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\StorageGUIController.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.Ulitity\StorageSystemUGUI.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WebInterSystem\LabInterApi\ILabInterApiService.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WebInterSystem\LabInterApi\LabInterApiService.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WebInterSystem\LabInterApi\LabInterApiWrapper.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WebInterSystem\WebAPIDataBehavior.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WebInterSystem\WebAPIInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WebInterSystem\WebGLWebAPI\IWebGlWebAPIService.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WebInterSystem\WebGLWebAPI\WebGLWebAPIService.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WebInterSystem\WebGLWebAPI\WebGLWebAPIServiceWapper.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WorkflowSystem\WorkflowDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WorkflowSystem\WorkflowEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WorkflowSystem\WorkflowException.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WorkflowSystem\WorkflowLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WorkflowSystem\WorkflowSystemInitializer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Modules.WorkflowSystem\WorkflowTracer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Common\UGUIDataEntity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Common\UGUIDataModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Component\DropdownRainier.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Component\InputFieldWebGL.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Component\SliderRainier.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Component\TextMvvmRainier.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Component\TextRainier.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Component\ToggleRanier.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Component\WebGLInputField.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Component\WebGLInputFieldRainier.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Logic\DropDownLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Logic\InputFieldLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Logic\SliderLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Logic\TextLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Logic\ToggleLogic.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Model\DropDownModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Model\InputFieldModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Model\SliderModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Model\TextModel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\Model\ToggleMode.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\UIViews\ButtonView.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\UIViews\DropdownView.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\UIViews\InputFieldView.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\UIViews\ScrollbarView.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\UIViews\SliderView.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\UIViews\TextView.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.UI\UIViews\ToggleView.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\CloseEventArgs.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\CloseStatusCode.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\ErrorEventArgs.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\IWebSocket.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\MessageEventArgs.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\Opcode.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\WebSocket.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-jslib\WebSocket.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-jslib\WebSocketReceiver.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\AssemblyInfo.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\ByteOrder.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\CloseEventArgs.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\CloseStatusCode.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\CompressionMethod.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\ErrorEventArgs.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Ext.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Fin.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\HttpBase.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\HttpRequest.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\HttpResponse.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\LogData.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Logger.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\LogLevel.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Mask.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\MessageEventArgs.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\AuthenticationBase.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\AuthenticationChallenge.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\AuthenticationResponse.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\AuthenticationSchemes.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\Chunk.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\ChunkedRequestStream.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\ChunkStream.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\ClientSslConfiguration.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\Cookie.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\CookieCollection.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\CookieException.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\EndPointListener.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\EndPointManager.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpBasicIdentity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpConnection.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpDigestIdentity.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpHeaderInfo.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpHeaderType.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpListener.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpListenerAsyncResult.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpListenerContext.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpListenerException.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpListenerPrefix.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpListenerPrefixCollection.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpListenerRequest.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpListenerResponse.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpRequestHeader.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpResponseHeader.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpStatusCode.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpStreamAsyncResult.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpUtility.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\HttpVersion.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\InputChunkState.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\InputState.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\LineState.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\NetworkCredential.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\QueryStringCollection.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\ReadBufferState.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\RequestStream.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\ResponseStream.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\ServerSslConfiguration.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\WebHeaderCollection.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Net\WebSockets\WebSocketContext.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Opcode.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\PayloadData.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Rsv.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\HttpRequestEventArgs.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\HttpServer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\IWebSocketSession.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\ServerState.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\WebSocketBehavior.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\WebSocketServer.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\WebSocketServiceHost.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\WebSocketServiceHost`1.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\WebSocketServiceManager.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\Server\WebSocketSessionManager.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\WebSocket.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\WebSocketException.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\WebSocketFrame.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\websocket-sharp\WebSocketState.cs" />
+    <Compile Include="Assets\BuskitFramework\Scripts\Source\Buskit3D.Moudles.WebSocket\WebSocketState.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\DragField.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\ExposeToEditor.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\HierarchyItem.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\MouseOrbit.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\Placeholder.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\RuntimeEditor.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\RuntimeHierarchy.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\RuntimePrefabs.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\RuntimeSceneView.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\RuntimeToolsPanel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\TransformComponent.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTEditor\Scripts\ViewportFitter.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\BaseHandle.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\GLCamera.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\GLRenderer.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\Grid.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\Handle.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\HandleController.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\PositionHandle.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\RotationHandle.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\RuntimeHandles.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\ScaleHandle.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Scripts\SceneGizmo.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\SaveInPlayMode\Scripts\SaveInPlayMode.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\ItemContainer.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\ItemDropMarker.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\ItemsControl.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\ListBox.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\ListBoxItem.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\RectTransformChangeListener.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\TreeView.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\TreeViewDropMarker.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\TreeViewExpander.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\UIControls\Scripts\TreeViewItem.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\Utils\EditorStopwatch.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\Utils\ExposePropertyAttribute.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\Utils\Run.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\HighLight\HighLightDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\HighLight\HighLighter.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\HighLight\HighLightLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\PlayerScrpt\AIViewBtn.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\PlayerScrpt\AIViewControl.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\PlayerScrpt\FirstAndThirdViewSwitch.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\PlayerScrpt\FirstViewControl.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\PlayerScrpt\FirstViewControlDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\PlayerScrpt\FirstViewControlLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\PlayerScrpt\ThirdCameraScript\FreeLookCam.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\PlayerScrpt\ThirdCameraScript\ProtectCameraFromWallClip.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\PlayerScrpt\ThirdViewControl.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Test\Test.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Test\TextureColorchange.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\Audio\AudioMgr.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\ManYou\ManYouCanShu.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\ManYou\ManYouLuJing.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\SceneLoad\SceneLoadHaiBo.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\ShadeGraph\ShaderGraphPoQie.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\ShowFPS.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\TimeControl.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\与平台对接\CreateUI.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\剖切\GetSlicingMaterial.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\剖切\SlicingMgr.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\加载场景进度条\SceneLoadMgr.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\动画精灵\UGUISpriteAnimation.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\截图\JiePin.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\拖拽物体\StopPlayerRotate.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋转物体\RotateObject.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋转物体\RotateObjectDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋转物体\RotateObjectLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋转相机\CameraRotate.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋转相机\CameraRotateDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋转相机\CameraRotateLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋转相机\ControlRot.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋转相机\ControlRotDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋转相机\ControlRotLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋钮\XuanNiu.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋钮\XuanNiuDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\旋钮\XuanNiuLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\画线\GLDrawLine.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\画线\GLDrawLineTest.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\画线\LRDrawLine.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\Tools\线\DrawElectricLine.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\TransformMove\CameraTransformMove.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\TransformMove\TransformMove.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\TransformMove\TransformMoveDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\TransformMove\TransformMoveExpand.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\TransformMove\TransformMoveLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\ButtonMgr.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\FullScreen.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\SheBeiRenZhi\RayControl.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\SheBeiRenZhi\RenZhiControl.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\TiShiWenZi\TiShiDataLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\TiShiWenZi\TiShiDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\TiShiWenZi\TiShiTextControl.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\TiShiWenZi\TypewriterEffectUGUI.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\UI拖拽\DragObject.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\UI拖拽\DragObjectDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UI\UI拖拽\DragObjectLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UnitTests\SampleDataModel.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UnitTests\SampleLogic.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UnitTests\SampleTest.cs" />
+    <Compile Include="Assets\ExpandPackage\CaiLiaoFrame\UnitTests\SmallScene.cs" />
+    <Compile Include="Assets\ExpandPackage\Rainier上传分数\DataInteractive\DIonGUI.cs" />
+    <Compile Include="Assets\ExpandPackage\Rainier上传分数\DataInteractive\EnumLabelAttribute.cs" />
+    <Compile Include="Assets\ExpandPackage\Rainier上传分数\DataInteractive\ExpInteractive.cs" />
+    <Compile Include="Assets\ExpandPackage\Rainier上传分数\DataInteractive\ExpReport.cs" />
+    <Compile Include="Assets\ExpandPackage\Rainier上传分数\DataInteractive\ExpScore.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIEffect_Demo\UIEffect_Demo.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIEffect_Demo\UIEffect_Demo_Dialog.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\BaseMeshEffect.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\BlurMode.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\ColorMode.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\EffectArea.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\EffectPlayer.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\MaterialCache.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\MaterialResolver.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\Matrix2x3.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\Packer.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\ParameterTexture.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\ShadowStyle.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\ToneMode.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\Common\UIEffectBase.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UIDissolve.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UIEffect.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UIEffectCapturedImage.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UIeffectChild\UIGrayscale.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UIFlip.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UIGradient.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UIHsvModifier.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UIShadow.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UIShiny.cs" />
+    <Compile Include="Assets\ExpandPackage\UIEffect_UNITY2018\UIExtensions\UIEffect\Scripts\UITransitionEffect.cs" />
+    <Compile Include="Assets\LazyFramework\Cailiao\CamPointManager.cs" />
+    <Compile Include="Assets\LazyFramework\Cailiao\流程管理可回放版\ProcessMgr.cs" />
+    <Compile Include="Assets\LazyFramework\Cailiao\流程管理可回放版\ProcessMgrLogic.cs" />
+    <Compile Include="Assets\LazyFramework\Cailiao\流程管理可回放版\ProcessMgrModel.cs" />
+    <Compile Include="Assets\LazyFramework\Cailiao\配置\MenuConfigEx.cs" />
+    <Compile Include="Assets\LazyFramework\Script\Debug工具\DebugCommand_ProcessControl.cs" />
+    <Compile Include="Assets\LazyFramework\Script\Debug工具\DebugCommand_Test.cs" />
+    <Compile Include="Assets\LazyFramework\Script\Debug工具\DebugCommandBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\Debug工具\DebugGUI.cs" />
+    <Compile Include="Assets\LazyFramework\Script\Debug工具\MyAllPostprocessor.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\Effect\IconFade.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\Effect\PPTLike.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\Effect\列表动画\ListUI.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\Effect\列表动画\ListUIItem.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\UIFrame\MessageCenter.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\UIFrame\UIEffectExtension.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\UIFrame\UIFrame.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\UIFrame\UIPanelBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\图片操作\DragUI.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\图片操作\ImageEx.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\图片操作\UIScaleOperation.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\图片操作\UIScalePoint.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\多级开关\UISwitch.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\弹框管理\BoxManager.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\弹框管理\MessageBox.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\滑动列表效果\ScrollList.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\物体位置标识\IconOf_3dObject.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\自适应文本\BindingImageSize.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\自适应文本\InputFieldAutoScale.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\自适应文本\TextAdaption.cs" />
+    <Compile Include="Assets\LazyFramework\Script\UI\自适应标尺\AdaptionRuler.cs" />
+    <Compile Include="Assets\LazyFramework\Script\事件\EventTopic\EventManager.cs" />
+    <Compile Include="Assets\LazyFramework\Script\事件\EventTopic\EventTopic.cs" />
+    <Compile Include="Assets\LazyFramework\Script\事件\EventTopic\发布者.cs" />
+    <Compile Include="Assets\LazyFramework\Script\事件\EventTopic\订阅者.cs" />
+    <Compile Include="Assets\LazyFramework\Script\事件\事件监听\ObjectListen.cs" />
+    <Compile Include="Assets\LazyFramework\Script\动画\ObjectAnim.cs" />
+    <Compile Include="Assets\LazyFramework\Script\命令\ICommand.cs" />
+    <Compile Include="Assets\LazyFramework\Script\场景加载\LoadSceneManager.cs" />
+    <Compile Include="Assets\LazyFramework\Script\导入文件\ImportFile.cs" />
+    <Compile Include="Assets\LazyFramework\Script\导入文件\ImportTest.cs" />
+    <Compile Include="Assets\LazyFramework\Script\导入文件\LoadImage.cs" />
+    <Compile Include="Assets\LazyFramework\Script\导入文件\LoadVideo.cs" />
+    <Compile Include="Assets\LazyFramework\Script\导入文件\更换图片视频\ChangeBoard.cs" />
+    <Compile Include="Assets\LazyFramework\Script\导入文件\更换图片视频\ChangeBoardManager.cs" />
+    <Compile Include="Assets\LazyFramework\Script\导入文件\路径选择\DialogTest.cs" />
+    <Compile Include="Assets\LazyFramework\Script\导入文件\路径选择\OpenFileName.cs" />
+    <Compile Include="Assets\LazyFramework\Script\工具\ComponentTools.cs" />
+    <Compile Include="Assets\LazyFramework\Script\工具\ScreenTools.cs" />
+    <Compile Include="Assets\LazyFramework\Script\工具\TagAnalysisTools.cs" />
+    <Compile Include="Assets\LazyFramework\Script\工具\TimeTools.cs" />
+    <Compile Include="Assets\LazyFramework\Script\工具\ToolsCommonField.cs" />
+    <Compile Include="Assets\LazyFramework\Script\工具\ToolsManager.cs" />
+    <Compile Include="Assets\LazyFramework\Script\工具\合并网格\CombieMesh.cs" />
+    <Compile Include="Assets\LazyFramework\Script\工具\合并网格\CombineMeshEditor.cs" />
+    <Compile Include="Assets\LazyFramework\Script\截图录像\ContinuousCapture.cs" />
+    <Compile Include="Assets\LazyFramework\Script\截图录像\ImagePlayer.cs" />
+    <Compile Include="Assets\LazyFramework\Script\截图录像\ImageRecPlayer.cs" />
+    <Compile Include="Assets\LazyFramework\Script\截图录像\ScreenShotTool.cs" />
+    <Compile Include="Assets\LazyFramework\Script\摄像机操作\CameraOperation.cs" />
+    <Compile Include="Assets\LazyFramework\Script\撤销重做\Command.cs" />
+    <Compile Include="Assets\LazyFramework\Script\数值容器\ValueContainer.cs" />
+    <Compile Include="Assets\LazyFramework\Script\数学扩展方法\MathExtend.cs" />
+    <Compile Include="Assets\LazyFramework\Script\流程管理\ProcessControl.cs" />
+    <Compile Include="Assets\LazyFramework\Script\组件拓展\ToggleExpand.cs" />
+    <Compile Include="Assets\LazyFramework\Script\背包系统\BagBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\背包系统\ItemInBagBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\Menu_DropdownMenu.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\Menu_Interactive.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\MenuManager.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\MenuPanelBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\菜单中功能\Menu_ObjectAssemble.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\菜单中功能\Menu_ObjectDelete.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\菜单中功能\Menu_ObjectMove.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\菜单中功能\Menu_ObjectRotateX.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\菜单中功能\Menu_ObjectRotateY.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\菜单中功能\Menu_ObjectScale.cs" />
+    <Compile Include="Assets\LazyFramework\Script\菜单\菜单中功能\MenuFunctionBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\装配器\Assemble3DContainer.cs" />
+    <Compile Include="Assets\LazyFramework\Script\装配器\AssembleAccept3D_Ray.cs" />
+    <Compile Include="Assets\LazyFramework\Script\装配器\AssembleAcceptBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\装配器\AssembleContainerBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\装配器\AssembleManager.cs" />
+    <Compile Include="Assets\LazyFramework\Script\装配器\AssembleType.cs" />
+    <Compile Include="Assets\LazyFramework\Script\读取配置文件\ConfigReader.cs" />
+    <Compile Include="Assets\LazyFramework\Script\读取配置文件\PathDebug.cs" />
+    <Compile Include="Assets\LazyFramework\Script\通用\单例\MonoSingleton.cs" />
+    <Compile Include="Assets\LazyFramework\Script\通用\扩展\ExtraTriggerExpand.cs" />
+    <Compile Include="Assets\LazyFramework\Script\通用\扩展\MonoExpand.cs" />
+    <Compile Include="Assets\LazyFramework\Script\通用\扩展\ProgramExtensions.cs" />
+    <Compile Include="Assets\LazyFramework\Script\通用\扩展\TransformHelper.cs" />
+    <Compile Include="Assets\LazyFramework\Script\通用\标签\CustomFieldName.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\ExamMgr.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\ExamPanelBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\ExamPanelManager.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\ImageExam.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\SimlpeExam.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\TextExam.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\读取\ExamConfigFilesBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\读取\ExamImportBase.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\读取\ExamImportTools.cs" />
+    <Compile Include="Assets\LazyFramework\Script\题目管理\读取\ExamReadByJson.cs" />
+    <Compile Include="Assets\LazyFramework\Test\LazyDemoTest\LazyDemoLogic.cs" />
+    <Compile Include="Assets\LazyFramework\Test\LazyDemoTest\TimuDemo.cs" />
+    <Compile Include="Assets\LazyFramework\Test\UnitTest\Test2\UIframeTest2.cs" />
+    <Compile Include="Assets\LazyFramework\Test\UnitTest\Test3\MainMenuPanel.cs" />
+    <Compile Include="Assets\LazyFramework\Test\UnitTest\Test3\ShiYanPanel.cs" />
+    <Compile Include="Assets\LazyFramework\Test\UnitTest\Test3\SplashPanel.cs" />
+    <Compile Include="Assets\LazyFramework\Test\UnitTest\Test3\TeXiaoZhanShiPanel.cs" />
+    <Compile Include="Assets\LazyFramework\Test\UnitTest\Test3\TiShiPanel.cs" />
+    <Compile Include="Assets\LazyFramework\Test\UnitTest\Test3\TiShiPanel1.cs" />
+    <Compile Include="Assets\LazyFramework\Test\UnitTest\Test3\UnitTest.cs" />
+    <Compile Include="Assets\LazyFramework\Test\UnitTest\Test3\YuXiPanel.cs" />
+    <Compile Include="Assets\Scenes\PcLoginScene\LoginInPlatform.cs" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\UI-Effect-HSV.shader" />
+    <None Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Shaders\Resources\Shape.shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_Sprite (UIHsvModifier).shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF (UIDissolve).shader" />
+    <None Include="Assets\ScriptHelper\Template\DataModelBehaviour.cs.txt" />
+    <None Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Shaders\Resources\VertexColorClip.shader" />
+    <None Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Shaders\Resources\Billboard.shader" />
+    <None Include="Assets\ScriptHelper\Template\NewBehaviour.cs.txt" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF (UIShiny).shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_Sprite (UIDissolve).shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_Sprite (UIShiny).shader" />
+    <None Include="Assets\TestExperiment.txt" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF-Mobile (UIDissolve).shader" />
+    <None Include="Assets\Artworks\Frame Project Asset\Shader\cutAllIn.shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF-Mobile (UIEffect).shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\UI-Effect-Dissolve.shader" />
+    <None Include="Assets\IgcsExperiment.xml" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_Sprite (UIEffect).shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\UI-EffectCapture.shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF-Mobile (UIHsvModifier).shader" />
+    <None Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Shaders\Resources\VertexColorBillboard.shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_Sprite (UITransition).shader" />
+    <None Include="Assets\ScriptHelper\Template\LogicBehaviour.cs.txt" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\UI-Effect-Sprite.cginc" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF (UIEffect).shader" />
+    <None Include="Assets\Artworks\Frame Project Asset\Fonts\3D Text Shader.shader" />
+    <None Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Shaders\Resources\Grid.shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF-Mobile (UIShiny).shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\UI-Effect-Shiny.shader" />
+    <None Include="Assets\Experiment.txt" />
+    <None Include="Assets\Artworks\Frame Project Asset\Shader\cutAll.shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\UI-Effect-TMPro.cginc" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\UI-Effect.shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF-Mobile (UITransition).shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\UI-Effect-Transition.shader" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\UI-Effect.cginc" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF (UIHsvModifier).shader" />
+    <None Include="Assets\ScriptHelper\Template\EntityBehaviour.cs.txt" />
+    <None Include="Assets\LazyFramework\Shader\UIEffectShaders\TMP_SDF (UITransition).shader" />
+    <None Include="Assets\ExpandPackage\CaiLiaoFrame\Battlehub\RTHandles\Shaders\Resources\VertexColor.shader" />
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="RainierFramework">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Assets/ExpandPackage/CaiLiaoFrame/Tools/拖拽物体/RainierFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Assets/Plugins/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonDotNet">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Assets/Plugins/PluginJsonDotNet/JsonDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Rainier.Buskit.Unity.Architecture.WebGL">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Assets/Plugins/PluginRainier/Com.Rainier.Buskit.Unity.Architecture.WebGL.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Rainier.BusKit.Unity.Modules.Command.WebGL">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Assets/Plugins/PluginRainier/Com.Rainier.BusKit.Unity.Modules.Command.WebGL.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Rainier.BusKit.Unity.Modules.DataWatch.WebGL">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Assets/Plugins/PluginRainier/Com.Rainier.BusKit.Unity.Modules.DataWatch.WebGL.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Rainier.BusKit.Unity.Modules.FSM.WebGL">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Assets/Plugins/PluginRainier/Com.Rainier.BusKit.Unity.Modules.FSM.WebGL.dll</HintPath>
+    </Reference>
+    <Reference Include="Com.Rainier.BusKit.Unity.Modules.FSMU.WebGL">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Assets/Plugins/PluginRainier/Com.Rainier.BusKit.Unity.Modules.FSMU.WebGL.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:/Framework/Framework2018/LazyFramework/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>F:/unity2018.3.0Po/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{1D8D1B6E-4BC7-3CB3-1C14-49CCD2B2CB11}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

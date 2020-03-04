@@ -1,0 +1,778 @@
+*********************************ReplayData**********************************
+[
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 1,
+    "ObjectId": -12588,
+    "PropertyPath": "iniQuaternionInt",
+    "NewValue": 1
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 226,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000057,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000057,
+      "sqrMagnitude": 400.000244
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 227,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000114,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000114,
+      "sqrMagnitude": 400.000458
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 230,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.00001,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.00001,
+      "sqrMagnitude": 400.0004
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 231,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000114,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000114,
+      "sqrMagnitude": 400.000458
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 234,
+    "ObjectId": -12588,
+    "PropertyPath": "iniQuaternionInt",
+    "NewValue": 2
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 381,
+    "ObjectId": 32698,
+    "PropertyPath": "processNext",
+    "NewValue": 1
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 556,
+    "ObjectId": 32698,
+    "PropertyPath": "processNext",
+    "NewValue": 2
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 719,
+    "ObjectId": 32698,
+    "PropertyPath": "processNext",
+    "NewValue": 3
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 793,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000153,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000153,
+      "sqrMagnitude": 400.0006
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 794,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000134,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000134,
+      "sqrMagnitude": 400.000549
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 796,
+    "ObjectId": 32698,
+    "PropertyPath": "processNext",
+    "NewValue": 4
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 796,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000153,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000153,
+      "sqrMagnitude": 400.0006
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 797,
+    "ObjectId": -12588,
+    "PropertyPath": "iniQuaternionInt",
+    "NewValue": 3
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 863,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000134,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000134,
+      "sqrMagnitude": 400.000549
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 865,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000114,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000114,
+      "sqrMagnitude": 400.000458
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 866,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000134,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000134,
+      "sqrMagnitude": 400.000549
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 868,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000153,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000153,
+      "sqrMagnitude": 400.0006
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 869,
+    "ObjectId": 32698,
+    "PropertyPath": "processNext",
+    "NewValue": 5
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 870,
+    "ObjectId": -12588,
+    "PropertyPath": "iniQuaternionInt",
+    "NewValue": 4
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 969,
+    "ObjectId": 32698,
+    "PropertyPath": "processNext",
+    "NewValue": 6
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 1038,
+    "ObjectId": 32698,
+    "PropertyPath": "processNext",
+    "NewValue": 7
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 1073,
+    "ObjectId": 32698,
+    "PropertyPath": "processNext",
+    "NewValue": 8
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 1168,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000172,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000172,
+      "sqrMagnitude": 400.0007
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 1169,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000153,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000153,
+      "sqrMagnitude": 400.0006
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 1170,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000134,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000134,
+      "sqrMagnitude": 400.000549
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 1171,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000153,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000153,
+      "sqrMagnitude": 400.0006
+    }
+  },
+  {
+    "$type": "Com.Rainier.Buskit3D.RecordItem, Assembly-CSharp",
+    "FrameCount": 1172,
+    "ObjectId": -12588,
+    "PropertyPath": "cameraRot",
+    "NewValue": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000172,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000172,
+      "sqrMagnitude": 400.0007
+    }
+  }
+]*********************************RestoreData**********************************
+{
+  "$type": "System.Collections.Generic.Dictionary`2[[System.Int32, mscorlib],[Com.Rainier.Buskit3D.BaseDataModelEntity, Assembly-CSharp]], mscorlib",
+  "32698": {
+    "$type": "ProcessMgrEntity, Assembly-CSharp",
+    "processNext": 8,
+    "objectID": 32698,
+    "transInfo": {
+      "$type": "Com.Rainier.Buskit3D.TransInfo, Assembly-CSharp",
+      "positon": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 0.0,
+        "y": 3.0,
+        "z": 0.0,
+        "normalized": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 3.0,
+        "sqrMagnitude": 9.0
+      },
+      "eulerAngles": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 50.0000038,
+        "y": 330.0,
+        "z": 0.0,
+        "normalized": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.1498054,
+          "y": 0.98871547,
+          "z": 0.0,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.149805412,
+            "y": 0.9887155,
+            "z": 0.0,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.0
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 333.7664,
+        "sqrMagnitude": 111400.0
+      },
+      "localScale": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "isActive": true
+    },
+    "igcsName": ""
+  },
+  "27336": {
+    "$type": "TiShiDataEntity, Assembly-CSharp",
+    "tiShiStr": null,
+    "objectID": 27336,
+    "transInfo": {
+      "$type": "Com.Rainier.Buskit3D.TransInfo, Assembly-CSharp",
+      "positon": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "eulerAngles": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "localScale": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "isActive": true
+    },
+    "igcsName": ""
+  },
+  "-28237": {
+    "$type": "HighLightDataEntity, Assembly-CSharp",
+    "hLStruct": {
+      "$type": "HLStruct, Assembly-CSharp",
+      "index": 0,
+      "isOn": false
+    },
+    "objectID": -28237,
+    "transInfo": {
+      "$type": "Com.Rainier.Buskit3D.TransInfo, Assembly-CSharp",
+      "positon": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 0.0,
+        "y": 1.6,
+        "z": 0.0,
+        "normalized": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 1.6,
+        "sqrMagnitude": 2.56000018
+      },
+      "eulerAngles": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 20.0000153,
+        "y": 0.0,
+        "z": 0.0,
+        "normalized": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 1.0,
+          "y": 0.0,
+          "z": 0.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 20.0000153,
+        "sqrMagnitude": 400.0006
+      },
+      "localScale": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.99999994,
+        "z": 0.99999994,
+        "normalized": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 2.99999976
+      },
+      "isActive": true
+    },
+    "igcsName": ""
+  },
+  "-12588": {
+    "$type": "FirstViewDataEntity, Assembly-CSharp",
+    "playerState": 3,
+    "isCanSimpleMove": true,
+    "isCanRotate": true,
+    "isXuanNiu": false,
+    "isCanUpDown": true,
+    "isCanScrollView": true,
+    "isTextInput": false,
+    "playerPos": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "playerRot": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "cameraPos": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "magnitude": 0.0,
+      "sqrMagnitude": 0.0
+    },
+    "cameraRot": {
+      "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+      "x": 20.0000153,
+      "y": 0.0,
+      "z": 0.0,
+      "normalized": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 1.0,
+        "sqrMagnitude": 1.0
+      },
+      "magnitude": 20.0000153,
+      "sqrMagnitude": 400.0006
+    },
+    "fieldOfView": 0.0,
+    "iniQuaternionInt": 4,
+    "fov": 0.0,
+    "objectID": -12588,
+    "transInfo": {
+      "$type": "Com.Rainier.Buskit3D.TransInfo, Assembly-CSharp",
+      "positon": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 0.0,
+        "y": 0.0,
+        "z": -2.152,
+        "normalized": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.0,
+          "y": 0.0,
+          "z": -1.0,
+          "magnitude": 1.0,
+          "sqrMagnitude": 1.0
+        },
+        "magnitude": 2.152,
+        "sqrMagnitude": 4.631104
+      },
+      "eulerAngles": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "localScale": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0,
+        "normalized": {
+          "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+          "x": 0.577350259,
+          "y": 0.577350259,
+          "z": 0.577350259,
+          "normalized": {
+            "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+            "x": 0.5773503,
+            "y": 0.5773503,
+            "z": 0.5773503,
+            "magnitude": 1.0,
+            "sqrMagnitude": 1.00000012
+          },
+          "magnitude": 0.99999994,
+          "sqrMagnitude": 0.99999994
+        },
+        "magnitude": 1.73205078,
+        "sqrMagnitude": 3.0
+      },
+      "isActive": true
+    },
+    "igcsName": ""
+  },
+  "24932": {
+    "$type": "Com.Rainier.Buskit3D.ReplayEntity, Assembly-CSharp",
+    "sceneIdNameOfPrefab": [],
+    "sceneName": "ManYou",
+    "objectID": 24932,
+    "transInfo": {
+      "$type": "Com.Rainier.Buskit3D.TransInfo, Assembly-CSharp",
+      "positon": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "eulerAngles": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "localScale": {
+        "$type": "UnityEngine.Vector3, UnityEngine.CoreModule",
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "magnitude": 0.0,
+        "sqrMagnitude": 0.0
+      },
+      "isActive": false
+    },
+    "igcsName": ""
+  }
+}

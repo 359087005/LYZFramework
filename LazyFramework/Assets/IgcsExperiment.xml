@@ -1,0 +1,27 @@
+<Experiment ScriptVersion="GB-T-2019.03.14" LastModifyTime="" Copyright="版权所有@北京润尼尔网络科技有限公司" Author="北京润尼尔网络科技有限公司">
+	<ExperimentInformation Name="" Uuid="49471586-fed3-41ae-ba5a-e477e4d4740a" Subject="" Course="" />
+	<ExperimentSceneState>
+		<SceneObjects SceneObjectCount="5">
+			<SceneObject Name="" Uuid="16048" TargetType="ProcessControlPlayBackEntity">
+				<GuiProperties />
+				<LogicModelProperties PropertyCount="0" />
+			</SceneObject>
+			<SceneObject Name="" Uuid="28108" TargetType="Com.Rainier.Buskit3D.ReplayEntity">
+				<GuiProperties />
+				<LogicModelProperties PropertyCount="0" />
+			</SceneObject>
+			<SceneObject Name="" Uuid="27336" TargetType="TiShiDataEntity">
+				<GuiProperties />
+				<LogicModelProperties PropertyCount="0" />
+			</SceneObject>
+			<SceneObject Name="" Uuid="-28237" TargetType="HighLightDataEntity">
+				<GuiProperties />
+				<LogicModelProperties PropertyCount="0" />
+			</SceneObject>
+			<SceneObject Name="" Uuid="-12588" TargetType="FirstViewDataEntity">
+				<GuiProperties />
+				<LogicModelProperties PropertyCount="0" />
+			</SceneObject>
+		</SceneObjects>
+	</ExperimentSceneState>
+</Experiment>
